@@ -1,7 +1,9 @@
 package main
 
-import "testing"
-import "math"
+import (
+	"math"
+	"testing"
+)
 
 type tests struct {
 	num, solution int
